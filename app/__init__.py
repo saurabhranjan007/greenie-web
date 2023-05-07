@@ -3,6 +3,7 @@ from flask_cors import CORS
 from os import environ
 
 app = Flask(__name__)
+app.debug=True
 
 # root module 
 from app import greenie 
