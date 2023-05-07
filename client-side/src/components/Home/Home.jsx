@@ -83,7 +83,7 @@ const App = () => {
       {
         cpuUsage.length === 0 && 
         <>
-          <p>Loading Power Consumption Data!!</p>
+          <p>Fetching data, please wait...</p>
           <LoadingDots />
         </>
       }
